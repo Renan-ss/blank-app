@@ -7,7 +7,7 @@ API_KEY = '085f32c594cc48fd924a8a861f24af96'  # Substitua por sua chave de API r
 
 # Função para obter os sites mais acessados de um país
 def get_top_sites(country_code):
-    url = f'https://api.similarweb.com/v1/country/{country_code}/top-websites'
+    url = f'https://api.similarweb.com/v1/country/BR/top-websites'
     
     headers = {
         'Authorization': f'Bearer {API_KEY}'
