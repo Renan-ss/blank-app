@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # Substitua pela sua chave de API do SimilarWeb
-API_KEY = 'SUA_CHAVE_DE_API_AQUI'  # Substitua por sua chave de API real
+API_KEY = '085f32c594cc48fd924a8a861f24af96'  # Substitua por sua chave de API real
 
 # Função para obter os sites mais acessados de um país
 def get_top_sites(country_code):
